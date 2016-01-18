@@ -30,7 +30,6 @@ class XPathRepair():
                     return Field(field.field, XPath(line))
             return field
                     
-    
     def IsAnomaly(self, xpath):
         if self.response.xpath(xpath.xpath).extract() == []:
             return True
