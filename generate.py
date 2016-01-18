@@ -1,5 +1,5 @@
 from utils import chainFunctions
-from xpath import XPath
+from field import XPath
 
 class GenerateXPaths():
      
